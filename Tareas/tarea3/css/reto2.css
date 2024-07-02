@@ -1,0 +1,19 @@
+.form-label {
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    background-color: rgb(218, 216, 216);
+    border-radius: 5px 0px 00px 5px;
+}
+
+.form-control {
+    padding: 5px;
+    margin-bottom: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.conv1{
+    background-color: rgb(237, 235, 235);
+}

@@ -1,0 +1,11 @@
+.form-control {
+    border-radius: 0px 0px 0px 0px;
+}
+
+.form-label {
+    background-color: rgb(185, 185, 185);
+    margin: 0;
+    height: 38px;
+    padding: 5px;
+    border-radius: 0px 0px 0px 0px;
+}

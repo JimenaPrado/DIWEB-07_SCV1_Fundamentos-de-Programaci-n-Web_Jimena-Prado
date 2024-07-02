@@ -1,0 +1,10 @@
+.formulario input {
+    height: 44px;
+    border-color: rgb(221, 221, 221) ;
+    border-radius: 0%;
+}
+
+.formulario label {
+    padding: 10px;
+    background-color: rgb(221, 221, 221);
+}

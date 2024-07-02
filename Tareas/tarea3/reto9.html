@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reto #9 - Jimena Prado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="css/estandares.css">
+    <link rel="icon" href="images/favicon.png">
+
+  </head>
+
+  <body>
+    <header class="shadow">
+        <nav class="navbar navbar-expand-lg shadow">
+            <div class="container">
+    
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="images/logo_cenfo.png" alt="Logot universidad" id="logoUni" class="img-fluid">
+                </a>
+    
+                <!-- hamburguesa-->
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+    
+                <!-- Contenido del Menu -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link optmenu" href="index.html" id="Inicio" role="button" target="_blank">Inicio
+                            </a>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle optmenu" href="#" id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Retos
+                            </a>
+                            <div class="dropdown-menu text-left" aria-labelledby="desplegable1">
+                                <a class="dropdown-item optmenu" href="reto1.html" >Reto #1</a>
+                                <a class="dropdown-item optmenu" href="reto2.html" >Reto #2</a>
+                                <a class="dropdown-item optmenu" href="reto3.html" >Reto #3</a>
+                                <a class="dropdown-item optmenu" href="reto4.html" >Reto #4</a>
+                                <a class="dropdown-item optmenu" href="reto5.html" >Reto #5</a>
+                                <a class="dropdown-item optmenu" href="reto6.html" >Reto #6</a>
+                                <a class="dropdown-item optmenu" href="reto7.html">Reto #7</a>
+                                <a class="dropdown-item optmenu" href="reto8.html" >Reto #8</a>
+                                <a class="dropdown-item optmenu" href="reto9.html">Reto #9</a>
+                                <a class="dropdown-item optmenu" href="reto10.html" >Reto #10</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center mt-4 text-info fw-lighter display-3">¿Cómo fue su consulta?</h1>
+
+            </div>
+                <div class=" m-4 container text-center encuesta col-12">
+                <h5>Encuesta</h5>
+                <div class="preguntas">
+                    <div class="preg1">
+                        <label class="mt-3" for="preg1">1. ¿Qué servicio obtuviste?</label>
+                        <div class="checkbox fw-light p-3">
+                            <input type="checkbox" name="clinica" id="clinica" class="checkbox"> Clínica
+                            <input type="checkbox" name="grooming" id="grooming" class="checkbox"> Grooming
+                        </div>
+                    </div>
+
+                    <div class="preg1 mt-3">
+                        <label for="preg2">2. ¿Cómo fue la calidad de atención del personal?</label>
+                        <div class="radios fw-light p-3">
+                            <input type="radio" name="preg2" value="Buena" id="radio1">Excelente
+                            <input type="radio" name="preg2" id="radio2" value="Regular" >Regular
+                            <input type="radio" name="preg2" id="radio3" value="Mala" >Mala
+                        </div>
+                    </div>
+
+                    <div class="preg1 mt-3">
+                        <label for="preg3">3. ¿Recomendarías la veterinaria?</label>
+                        <div class="radios fw-light p-3">
+                            <input type="radio" name="preg3" id="radio4" value="Si" >Sí
+                            <input type="radio" name="preg3" id="radio5" value="no" >No
+                        </div>
+                    </div>
+
+                    <div class="botones mt-4">
+                        <input type="button" value="Enviar" class="btn btn-success" onclick="evaluar()">
+                        <input type="button" value="Limpiar" class="btn btn-danger" onclick="limpiarFormulario()">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <footer>
+        <div class="row">
+            <div class="text-center ">
+                <p class="pt-4">Jimena Prado - Derechos Reservados 2024</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    
+    <script src="js/reto9.js"></script>
+  </body>
+  
+</html>

@@ -1,0 +1,59 @@
+.navbar{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+    font-size: 16px;
+    background-color: #2da0ff54;
+}
+
+.optmenu {
+    font-size: 20px;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #fff;
+    background-color: #2da1ff;
+    transition: all 1s solid;
+}
+
+/* MENU HAMBURGUESA */
+
+.navbar-toggler {
+
+    border: 3px solid #fff;
+}
+.navbar-toggler:hover {
+    background-color: #4856d3;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+/*lineas*/
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }         
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  } 
+
+
+  /*Footer*/
+  footer {
+    margin-top: 20px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    background-color: #2da0ff54;
+}
+
+/* Logo */
+
+#logoUni {
+
+    width: 150px;
+    height: 75px;
+}
+
